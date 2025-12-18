@@ -69,7 +69,6 @@ header {
 }
 section.hero {
         background-color: var(--color-silver);
-        position: relative;
         width: 100%;
         max-height: 600px;
         min-height: 400px;
@@ -82,26 +81,30 @@ section.hero {
         color: var(--color-gray); 
         margin: 0;
     }
-    h1.hero_h1{
+    
+    h1.hero_h1,h4{
          color: var(--color-green);
          margin: 0;
          padding: 0;
-         
+    }.tesla-img{
+        margin: 10%;
+    } 
+
         }
-        }
-    .hero-text {
+        
+    .hero-text {padding-left: 50px;
         flex: 1;
         max-width: 45%;
         min-width: 300px;
     }
 
     .hero-text p {
-        margin-top:  35px;
-        margin-bottom: 35px;
+    
         color: var(--color-gray);
         font-size: var(--tamaño-texto);
     }
   .btn {
+        margin-top: 25px;
         padding: 12px 40px;
         border: none;
         border-radius: 4px;
@@ -113,8 +116,7 @@ section.hero {
     }
 figure.dots{
     position: absolute;
-    bottom: 0;
-}
+    top:57% }
 .our-clients{
     width: 100%;
     margin: 0;
@@ -142,7 +144,6 @@ figure.dots{
         gap :5%;
         justify-content: center;
         align-items: center;
-
     }
 
     .brand-logo {
@@ -188,7 +189,7 @@ section.unlock{
         
     .unlock-text {
         flex: 1;
-        max-width: 45%;
+        max-width: 50%;
         min-width: 300px;
     }
 
@@ -199,6 +200,7 @@ section.unlock{
         font-size: var(--tamaño-texto);
     }
   .btn {
+        margin-top: 25px;
         padding: 12px 40px;
         border: none;
         border-radius: 4px;
@@ -235,3 +237,27 @@ h1.hero_h1{
     justify-self: center;
 }
 }
+
+.brands-customers {
+        width: 100%;
+        padding: 24px ;
+        background: var(--color-silver);
+        display: flex;
+        gap :5%;
+        justify-content: center;
+        align-items: center;
+    }
+    .brand-customerslogo {
+        margin: 20px;
+        gap: 25px;
+        font-weight: 700;
+        color: #fff;
+    }
+
+    .brand-customers-logo img {
+        height: 40px;
+        width: 40px;
+        height: 24px;
+        width: auto;
+    }
+  
