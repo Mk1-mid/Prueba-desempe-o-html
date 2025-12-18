@@ -7,7 +7,7 @@
   
   --fuente-principal: 'Inter', sans-serif;
   --tamaño-texto: 16px;
-  --tamaño-titulo: 32px;
+  --tamaño-titulo: 36x;
   
     }
 body {
@@ -71,7 +71,7 @@ section.hero {
     background-color: var(--color-silver);
         position: relative;
         width: 100%;
-        min-height: 600px;
+        max-height: 600px;
         min-height: 400px;
         padding: 20px;
         display: flex;
@@ -116,15 +116,22 @@ figure.dots{
     bottom: 0;
 }
 .our-clients{
+    width: 100%;
+    max-height: 200px;
     margin: 0;
     padding: 20px;
     color: var(--color-gray);
     text-align: center;
+    
+    h1{
+        
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 2px;        
+    }
     p{
-        
-        padding: 20px;
-        font-size: var(--tamaño-texto);
-        
+        padding: 2x;
+        font-size: var(--tamaño-texto);    
     }
     
 }
@@ -133,21 +140,56 @@ figure.dots{
         padding: 24px ;
         background: var(--color-blanco);
         display: flex;
-        gap :50px;
-        justify-content:center;
+        gap :5%;
+        justify-content: center;
         align-items: center;
-        gap: 20px;
+
     }
 
     .brand-logo {
         margin: 20px;
-        height: 48px;
-        width: 48px;
+        gap: 25px;
         font-weight: 700;
         color: #fff;
     }
 
     .brand-logo img {
+        height: 48px;
+        width: 48px;
         height: 24px;
         width: auto;
+}
+.Community{
+ width: 100%;
+    max-height: 200px;
+    margin: 0;
+    padding: 20px;
+    color: var(--color-gray);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    h1{
+        
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 2px;        
     }
+    p{
+        padding: 2x;
+        font-size: var(--tamaño-texto);    
+    }
+    .carts{
+        margin: 50px;
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        align-content: center;
+        justify-content: center;
+
+        
+    }
+    .cart{
+        align-items: center;
+        justify-self: center;
+        width: 300px; 
+        }
+}
