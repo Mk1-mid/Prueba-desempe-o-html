@@ -68,7 +68,7 @@ header {
 }
 }
 section.hero {
-    background-color: var(--color-silver);
+        background-color: var(--color-silver);
         position: relative;
         width: 100%;
         max-height: 600px;
@@ -101,7 +101,7 @@ section.hero {
         color: var(--color-gray);
         font-size: var(--tamaño-texto);
     }
-  .shop-now-btn {
+  .btn {
         padding: 12px 40px;
         border: none;
         border-radius: 4px;
@@ -117,7 +117,6 @@ figure.dots{
 }
 .our-clients{
     width: 100%;
-    max-height: 200px;
     margin: 0;
     padding: 20px;
     color: var(--color-gray);
@@ -158,38 +157,81 @@ figure.dots{
         width: 48px;
         height: 24px;
         width: auto;
-}
-.Community{
- width: 100%;
-    max-height: 200px;
-    margin: 0;
-    padding: 20px;
-    color: var(--color-gray);
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    h1{
-        
-        flex-wrap: wrap;
-        margin: 0;
-        padding: 2px;        
-    }
-    p{
-        padding: 2x;
-        font-size: var(--tamaño-texto);    
     }
     .carts{
         margin: 50px;
         display: grid;
         grid-template-columns: 33% 33% 33%;
         align-content: center;
-        justify-content: center;
-
-        
+        justify-content: center;   
     }
     .cart{
-        align-items: center;
-        justify-self: center;
         width: 300px; 
         }
+
+section.unlock{
+    background-color: var(--color-blanco);
+        
+        width: 100%;
+        max-height: 600px;
+        min-height: 400px;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+        justify-content: center;
+        h1{
+        color: var(--color-gray); 
+        margin: 0;
+    }
+   
+        
+    .unlock-text {
+        flex: 1;
+        max-width: 45%;
+        min-width: 300px;
+    }
+
+    .unlock-text p {
+        margin-top:  35px;
+        margin-bottom: 35px;
+        color: var(--color-gray);
+        font-size: var(--tamaño-texto);
+    }
+  .btn {
+        padding: 12px 40px;
+        border: none;
+        border-radius: 4px;
+        background: var(--color-green);
+        color: var(--color-blanco);
+        font-size: 14px;
+        margin-bottom: 32px;
+        cursor: pointer;
+    }}
+.Achievements{
+background-color: var(--color-silver);
+display: flex;
+gap: 20%;
+align-items: center;
+justify-content: center;
+padding: 20px;
+h1,p{
+    margin: 0;
+}
+h1.hero_h1{
+         color: var(--color-green);
+         margin: 0;
+         padding: 0;
+         
+        }
+
+.counts{
+    margin: 50px;
+    gap: 25px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    align-self: center;
+    justify-self: center;
+}
 }
