@@ -26,11 +26,8 @@ project/
 ├── README.md
 │
 └── assets/
-
 └── logos/
-
 └── img/
-
 └── extras/
 ```
 
@@ -63,7 +60,7 @@ Google Fonts
   --color-black:#263238;
 
 ## Resources
-
+- [Figma](https://www.figma.com/design/hw5hfbrYc2SDWhcBjZeVqV/Responsive-Landing-Page-Design-%7C-Website-Home-Page-Design-%7C-Agency-Website-UI-Design--Community-?node-id=5-573&m=dev&t=7yzhham16EtYyvov-1)
 - [Google Fonts](https://fonts.google.com/)
 - [MDN Web Docs](https://developer.mozilla.org/)
 
