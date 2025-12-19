@@ -41,7 +41,7 @@ project/
 git clone [your-repository]
 cd clipboard-landing-page
 # Double-click on index.html
-```
+``
 
 ## What's Included
 
