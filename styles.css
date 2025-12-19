@@ -11,6 +11,7 @@
   --tamaño-titulo: 36x;
   
     }
+    /* Main colors and fonts at the root, the rest of the code was literally spaghetti code, it's understandable but maybe it needs a lot of organization. */
 body {
     padding: 0px;
     margin: 0px;    
@@ -37,11 +38,16 @@ header {
         button.login{ 
             max-width: 80px;
             height: 40px;
+            border-radius: 6px;
             border: none;
             padding: 5px;
             margin: 10px;
             background-color: transparent;
-            color: var(--color-green);
+            color: var(--color-green);}
+        button.login:hover {
+            background-color: var(--color-green);
+            color: var(--color-silver);
+            box-shadow: var(--color-green);
         }
         button.sign_up{
             max-width: 90px;
@@ -53,7 +59,16 @@ header {
             margin: 10px;
             background-color:var(--color-green) ;
             color: var(--color-white) ;
+            cursor: pointer;
+            transition: background-color 0.15s ease;
+            
         }
+        button.sign_up:hover {
+            background-color: var(--color-silver);
+            border: 1px solid var(--color-green);
+            color: var(--color-green);
+            box-shadow: var(--color-green);
+    }
          li{
             color: var(--color-gray);
             font-family: var(--fuente-principal);
@@ -111,7 +126,7 @@ section.hero {
         margin-top: 25px;
         margin-left: 25px;
         padding: 12px 40px;
-        border: none;
+        border: var(--color-green);
         border-radius: 4px;
         background: var(--color-green);
         color: var(--color-white);
@@ -120,6 +135,12 @@ section.hero {
         cursor: pointer;
         align-self: center;
         justify-self: center;
+    }
+    .btn:hover {
+            background-color: var(--color-silver);
+            color: var(--color-green);
+            border: 1px solid var(--color-green);
+            box-shadow: var(--color-green);
     }
 figure.dots{
     position: absolute;
@@ -221,7 +242,13 @@ section.unlock{
         font-size: 14px;
         margin-bottom: 32px;
         cursor: pointer;
-    }}
+    }
+    .btn:hover {
+            background-color: var(--color-silver);
+            border: 1px solid var(--color-green);
+            color: var(--color-green);
+            box-shadow: var(--color-green);
+}}
 .Achievements{
 background-color: var(--color-silver);
 display: flex;
@@ -318,6 +345,10 @@ flex-wrap: wrap;
     a{
         color: var(--color-green);
     }
+}
+.carts-update:hover{
+    transform: translateY(-10%);
+    cursor: pointer;
 }
 }
 img.img-update{
@@ -430,5 +461,11 @@ img.img-update{
         background-color: var(--color-dark-gray);
         border: 1px solid var(--color-dark-gray);
         border-radius: 8px ;
+    }
+    .subscribe-btn:hover {
+            background-color: var(--color-silver);
+            border: 1px solid var(--color-gray);
+            color: var(--color-gray);
+            box-shadow: var(--color-gray);
     }
 }

@@ -1,71 +1,72 @@
 # Prueba-desempe-o-html
-Nombre: Miguel David Calle Restrepo
+Name: Miguel David Calle Restrepo
 Clan: Turing
 Email: Callerestrepomigueldavid@gmail.com
-Documento: 1000190095
+Document: 1000190095
 
+## Objective of the page:
+to copy and demonstrate knowledge of HTML and CSS, showing an understanding of how it works and how to apply the tags, variables, and other HTML and CSS objects.
 
-Página web responsiva que muestra las características del producto Clipboard. Funciona en computadoras, tablets y celulares.
+##  Descripción
+The pages have the hierarchical order of HTML tags, starting with the header, followed by the page content, and ending with the footer, which contains both contact and legal information about the company.
+Responsive website showcasing the features of the Clipboard product. Works on computers, tablets, and mobile phones.
+It is moderately responsive; without the use of @media, it functions and meets the requirements of being responsive.
 
-## Tecnologías
+## Technologies
 - HTML
 - CSS
 
-
-##  Archivos del Proyecto
+## Project Files
 
 ```
-proyecto/
+project/
 │
 ├── index.html
 ├── styles.css
 ├── README.md
 │
 └── assets/
-    └── logos/
-    └── img/
-    └── extras/
+
+└── logos/
+
+└── img/
+
+└── extras/
 ```
 
-##  Cómo ver el proyecto
+## How to View the Project
 
-1. Descarga o clona el proyecto
-2. Abre el archivo `index.html` en tu navegador
-3. ¡Listo!
+1. Download or clone the project
+2. Open the `index.html` file in your browser
+3. Done!
 
-```bash
-git clone [tu-repositorio]
+``bash
+git clone [your-repository]
 cd clipboard-landing-page
-# Doble clic en index.html
+# Double-click on index.html
 ```
 
-##  Lo que incluye
+## What's Included
 
- HTML con etiquetas semánticas
- CSS en archivo externo
- Diseño responsivo
- Efectos hover en botones
- Variables CSS (`:root`)
- Google Fonts
+HTML with semantic tags
+CSS in an external file
+Hover effects on buttons and cart
+CSS variables (`:root`)
+Google Fonts
 
-##  Colores usados
-color-gray: #18191F;
-color-green: #4CAF4F;
-color-dark-gray: #4D4D4D;
-color-silver: #F5F7FA;
-color-blanco: #FFFFFF;
+## Colors used
+  --color-gray: #18191F;
+  --color-green: #4CAF4F;
+  --color-dark-gray: #4D4D4D;
+  --color-silver: #F5F7FA;
+  --color-white: #FFFFFF;
+  --color-black:#263238;
 
-## Tamaños de pantalla
-
-- Móvil: hasta 480px
-- Tablet: 768px
-- Escritorio: 1024px en adelante
-
-## Recursos
+## Resources
 
 - [Google Fonts](https://fonts.google.com/)
 - [MDN Web Docs](https://developer.mozilla.org/)
 
 ---
 
-Hecho por Miguel Calle  - 2025
+Made by Miguel Calle - 2025
